@@ -1,0 +1,53 @@
+{
+    "compilerOptions": {
+        "target": "ES2020",
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "useDefineForClassFields": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "composite": false,
+        // Code
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "experimentalDecorators": true,
+        // Debug
+        "sourceMap": true,
+        "inlineSourceMap": false,
+        "inlineSources": false,
+        "declarationMap": false,
+        "declaration": false,
+        // Output
+        "outDir": "./dist",
+        "rootDir": "./src",
+        // Path definitions
+        "baseUrl": ".",
+        "paths": {
+            "@/*": [
+                "./src/*"
+            ],
+            "@shared/*": [
+                "../shared/src/*"
+            ]
+        },
+        // Specific
+        "jsx": "react-jsx",
+        "lib": [
+            "ES2020",
+            "DOM",
+            "DOM.Iterable"
+        ],
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}

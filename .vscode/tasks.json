@@ -1,0 +1,31 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Frontend - Build",
+            "type": "shell",
+            "command": "tsc -b",
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "isBackground": false,
+            "presentation": {
+                "reveal": "silent",
+                "close": true
+            }
+        },
+        {
+            "label": "Frontend - Build and debug",
+            "type": "shell",
+            "command": "tsc -b;npm run debug",
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "isBackground": false,
+            "presentation": {
+                "reveal": "silent",
+                "close": true
+            }
+        }
+    ]
+}

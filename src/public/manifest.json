@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "id": "ArezkiSaba.DocDetector",
+  "short_name": "DocDetector",
+  "name": "ArezkiSaba.DocDetector",
+  "description": "Application de détection d'images'",
+  "start_url": "/index.html?standalone=true",
+  "display": "standalone",
+  "scope": "/",
+  "background_color": "#63b197",
+  "theme_color": "#63b197",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "img/qrcode16x16.png",
+      "sizes": "16x16",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/qrcode24x24.png",
+      "sizes": "24x24",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/qrcode32x32.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/qrcode64x64.png",
+      "sizes": "64x64",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/qrcode512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "permissions": [
+    "tabs",
+    "storage",
+    "identity",
+    "videoCapture"
+  ]
+}

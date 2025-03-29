@@ -1,0 +1,25 @@
+description: Ultralytics YOLO11n-seg model trained on /home/arezkisaba/git/french-id-detection-training/src/dataset/config.yaml
+author: Ultralytics
+date: '2025-03-29T15:26:18.602072'
+version: 8.3.96
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: segment
+batch: 1
+imgsz:
+- 320
+- 320
+names:
+  0: cni-ancien-recto
+  1: cni-ancien-verso
+  2: cni-nouveau-recto
+  3: cni-nouveau-verso
+  4: passeport
+  5: permis-de-conduire
+  6: carte-vitale
+args:
+  batch: 1
+  half: false
+  int8: true
+  nms: false
